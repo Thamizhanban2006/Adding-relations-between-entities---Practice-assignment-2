@@ -40,3 +40,19 @@
 .read-the-docs {
   color: #888;
 }
+
+.container{
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+
+}
+.card{
+  margin:20px;
+  border:2px solid white;
+  border-radius: 20px;
+  background: #96ff99b6;
+  color: black;
+}
+img{
+  border-radius: 25px;;
+}
